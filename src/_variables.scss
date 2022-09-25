@@ -8,9 +8,11 @@ $nav-text: #bcbcbc;
 $sticky-bg: #18181a;
 $about-bg: #f5f5f7;
 $about-text: #8d8d91;
+$more-text: #636365;
 
 @mixin center($direction: row, $justify: center, $align: center) {
   display: flex;
+  flex-wrap: wrap;
   justify-content: $justify;
   align-items: $align;
   flex-direction: $direction;
