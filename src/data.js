@@ -11,27 +11,6 @@ const navItems = [
   'Support',
 ];
 
-const devices = [
-  'apple-tv',
-  'iphone',
-  'ipad',
-  'mac',
-  'airplay',
-];
-
-const supports = [
-  'samsung',
-  'lg',
-  'vizio',
-  'sony',
-  'xfinity',
-  'roku',
-  'firetv',
-  'googletv',
-  'ps',
-  'xbox',
-];
-
 const movies = [{
   status: 'New Released',
   image: 'https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg',
@@ -127,5 +106,5 @@ const aboutApple = [
 ];
 
 export {
-  navItems, devices, supports, movies, shopNLearn, services, account, appleStore, forBusiness, forEducation, forHealthcare, forGovernment, appleValues, aboutApple,
+  navItems, movies, shopNLearn, services, account, appleStore, forBusiness, forEducation, forHealthcare, forGovernment, appleValues, aboutApple,
 };
