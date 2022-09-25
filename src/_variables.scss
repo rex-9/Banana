@@ -2,6 +2,8 @@ $brown: #424245;
 $text: #fff;
 $noti-button: #0071E3;
 $noti-close: #7D7D7F;
+$nav-background-color: #000;
+$nav-text-color: #BCBCBC;
 
 @mixin center($direction: row, $justify: center, $align: center) {
   display: flex;

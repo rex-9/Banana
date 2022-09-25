@@ -1,0 +1,14 @@
+@import '../variables';
+
+.nav {
+  @include center($justify: space-between);
+  background-color: $nav-background-color;
+  color: $nav-text-color;
+  padding: 10px 200px;
+  font-size: 12px;
+}
+
+.nav span:hover {
+  color: $text;
+  cursor: pointer;
+}
