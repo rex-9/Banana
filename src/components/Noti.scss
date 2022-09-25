@@ -2,15 +2,15 @@
 
 .noti {
   @include center($justify: space-around);
-  background-color: $brown;
+  background-color: $noti-bg;
   color: $text;
   font-size: 12px;
-  padding: 18px 200px;
+  padding: 18px $nav-y-padding;
 }
 
 select {
   width: 300px;
-  background-color: $brown;
+  background-color: $noti-bg;
   color: $text;
   border: 1px solid $text;
   border-radius: 5px;

@@ -1,0 +1,6 @@
+@import '../variables';
+
+.parallax {
+  height: 100vh;
+  @include center;
+}
