@@ -2,6 +2,7 @@
 
 .noti {
   @include center($justify: space-around);
+
   background-color: $noti-bg;
   color: $text;
   font-size: 12px;
